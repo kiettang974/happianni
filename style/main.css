@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -30,11 +30,14 @@ body {
 
 .one {
   font-size: 4.5rem;
+  text-align: center;
 }
 
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
+  text-align: center;
+  margin-right: 3.2rem;
 }
 
 .three {
@@ -109,10 +112,17 @@ body {
 }
 
 .six .hat {
-  left: 41.5%;
+  left: 43%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -35%;
+  top: -11%;
+  width: 80px;
+}
+.six .hat2 {
+  left: 50%;
+  position: absolute;
+  /* transform: scale(0.1); */
+  top: -17%;
   width: 80px;
 }
 
@@ -226,27 +236,61 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
+/* @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 38%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 38%;
   }
 }
 
 @media screen and (max-height: 700px) {
+  .six .hat {
+    left: 38%;
+  }
+} */
+
+@media screen and (max-width: 700px) {
+  .six .hat {
+    left: 38%;
+  }
+}
+@media screen and (max-width: 1000px) {
   .six .hat {
     left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
-    left: 32%;
+  .six .hat2 {
+    left: 52%;
+  }
+}
+@media screen and (max-height: 1000px) {
+  .six .hat2 {
+    left: 50%;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .six .hat2 {
+    left: 50%;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .six .hat2 {
+    left: 50%;
+  }
+}
+
+@media screen and (max-height: 850px) and (max-width: 450px) {
+  .six .hat2 {
+    left: 52%;
   }
 }
 
@@ -272,7 +316,8 @@ body {
     font-size: 10rem;
   }
 
-  .six .hat {
+  .six .hat,
+  .six .hat2 {
     /* top: -20px; */
     width: 50px;
   }
