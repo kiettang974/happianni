@@ -68,9 +68,10 @@ body {
   border-radius: 3px;
   bottom: -50px;
   color: #fff;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
   position: absolute;
   right: 5px;
+  margin-top: 0.5rem;
 }
 
 .five p {
@@ -279,6 +280,11 @@ body {
 @media screen and (min-height: 1200px) and (max-width: 1024px) {
   .six .hat {
     left: 37%;
+  }
+}
+@media screen and (max-height: 800px) and (min-width: 1024px) {
+  .six .hat {
+    left: 42%;
   }
 }
 
