@@ -112,7 +112,7 @@ body {
 }
 
 .six .hat {
-  left: 43%;
+  left: 34%;
   position: absolute;
   /* transform: scale(0.1); */
   top: -11%;
@@ -253,15 +253,31 @@ body {
     left: 38%;
   }
 } */
-
-@media screen and (max-width: 700px) {
+@media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 38%;
+    left: 26%;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-height: 1000px) {
   .six .hat {
-    left: 32%;
+    left: 24%;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .six .hat {
+    left: 24%;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .six .hat {
+    left: 24%;
+  }
+}
+@media screen and (min-height: 1200px) and (max-width: 1024px) {
+  .six .hat {
+    left: 37%;
   }
 }
 
